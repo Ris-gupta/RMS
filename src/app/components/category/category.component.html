@@ -1,0 +1,14 @@
+<div class="main-container">
+  <div class="card-container">
+    <ng-container *ngFor="let category of categoriesData">
+      <mat-card class="example-card">
+        <img mat-card-image src="assets/images/{{category.image}}" >
+        <mat-card-actions>
+          <button mat-button (click)="categoryDetail(category.name)">{{category.name}} --></button>
+        </mat-card-actions>
+      </mat-card>
+    </ng-container>
+  </div>
+
+
+</div>

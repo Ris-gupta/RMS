@@ -1,0 +1,16 @@
+.example-card {
+  width: 200px;
+}
+
+
+.main-container {
+  padding: 16px;
+  width: 100%
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+}

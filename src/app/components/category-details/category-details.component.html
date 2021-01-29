@@ -1,0 +1,12 @@
+<div class="main-container">
+  <div class="card-container">
+    <ng-container *ngFor="let category of categoriesDetailData">
+      <mat-card class="example-card">
+        <img mat-card-image src="assets/images/{{category.image}}" >
+        {{category.name}}
+      </mat-card>
+    </ng-container>
+  </div>
+
+
+</div>
